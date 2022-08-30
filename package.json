@@ -43,12 +43,15 @@
     ]
   },
   "lint-staged": {
-    "*.ts": "npm lint:ts",
-    "*.tsx": "npm lint:ts"
+    "*.ts": "lint:ts",
+    "*.tsx": "lint:ts"
   },
-  "husky": { 
-   "hooks": {
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged"
-   }
+    }
+  },
+  "devDependencies": {
+    "lint-staged": "^13.0.3"
   }
 }
