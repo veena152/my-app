@@ -1,5 +1,5 @@
 type GetTitleProps = {
-    header: number,
+    header: boolean,
 }
 const GetTitle = (props: GetTitleProps) => {
     const {header} = props;
