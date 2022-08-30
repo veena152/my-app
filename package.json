@@ -43,8 +43,8 @@
     ]
   },
   "lint-staged": {
-    "*.ts": "lint:ts",
-    "*.tsx": "lint:ts"
+    "*.ts": "npm lint:ts",
+    "*.tsx": "npm lint:ts"
   },
   "husky": {
     "hooks": {
